@@ -92,3 +92,16 @@ console.log(`Contador7 com passo ${passo}: ${contador7}`);
 
 contador7 -= passo;
 console.log(`Contador7 com passo ${passo}: ${contador7}`);
+
+// NaN - Not a Number
+const num5 = 10;
+const num6 = 'L5';
+const resultado2 = num5 * num6;
+console.log(typeof(resultado2)); // number
+console.log(resultado2); // NaN
+
+// Convertendo uma string para number
+const num7 = '5';
+const num8 = 10;
+const resultado3 = num8 * parseInt(num7);
+console.log(typeof(resultado3));
