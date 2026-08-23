@@ -104,4 +104,15 @@ console.log(resultado2); // NaN
 const num7 = '5';
 const num8 = 10;
 const resultado3 = num8 * parseInt(num7);
-console.log(typeof(resultado3));
+
+const num9 = 10;
+const num10 = '5.2';
+const resultado4 = num9 * parseFloat(num10);
+
+const num11 = 10;
+const num12 = '5.2';
+const resultado5 = num11 * Number(num12);
+
+console.log(typeof(resultado3)); // number
+console.log(typeof(resultado4)); // number
+console.log(typeof(resultado5)); // number
