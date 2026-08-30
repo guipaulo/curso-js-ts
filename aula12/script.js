@@ -16,6 +16,7 @@ console.log(umaString.indexOf('o', 3)); // 6
 
 // indexOf() retorna o índice da primeira ocorrência do valor especificado, começando a busca no índice fornecido. Retorna -1 se o valor não for encontrado.
 console.log(umaString.lastIndexOf('o')); // 6
+console.log(umaString.lastIndexOf('a'));
 
 // lastIndexOf() retorna o índice da última ocorrência do valor especificado, começando a busca no índice fornecido. Retorna -1 se o valor não for encontrado.
 console.log(umaString.lastIndexOf('o', 5)); // 3
