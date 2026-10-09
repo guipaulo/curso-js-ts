@@ -26,3 +26,4 @@ console.log(alunos);
 
 console.log(alunos[50]); // undefined
 console.log(typeof alunos);
+console.log(alunos instanceof Array); // true
